@@ -1,0 +1,24 @@
+package week1.day4;
+
+import org.openqa.selenium.chrome.ChromeDriver;
+
+import io.github.bonigarcia.wdm.WebDriverManager;
+
+public class LaunchChrome {
+
+	public static void main(String[] args) {
+
+		WebDriverManager.chromedriver().setup();
+		ChromeDriver driver1 = new ChromeDriver();
+		driver1.get("http://leaftaps.com/opentaps/control/main");
+
+		driver1.manage().window().maximize();
+
+		// driver.close();
+		//your sys is not compatible with higher version of selenium so use this setup to launch browser
+		//other wise update your os to 10
+		
+
+	}
+
+}
