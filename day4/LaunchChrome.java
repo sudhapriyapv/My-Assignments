@@ -14,7 +14,7 @@ public class LaunchChrome {
 
 		driver1.manage().window().maximize();
 
-		driver.close();
+		driver1.close();
 	}
 
 }
