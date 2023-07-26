@@ -14,11 +14,7 @@ public class LaunchChrome {
 
 		driver1.manage().window().maximize();
 
-		// driver.close();
-		//your sys is not compatible with higher version of selenium so use this setup to launch browser
-		//other wise update your os to 10
-		
-
+		driver.close();
 	}
 
 }
